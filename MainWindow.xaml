@@ -1,0 +1,32 @@
+﻿<Window x:Class="InforISPC.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:hc="https://handyorg.github.io/handycontrol" 
+        xmlns:local="clr-namespace:InforISPC"
+        mc:Ignorable="d"
+       Title="StartLocal" Height="500" Width="800" AllowsTransparency="True"  WindowStyle="None" WindowStartupLocation="CenterScreen">
+    <Grid>
+
+        <Rectangle Fill="#FF1F1FAC" HorizontalAlignment="Left" Height="500" Stroke="Black" VerticalAlignment="Top" Width="400"/>
+        <TextBlock HorizontalAlignment="Left" Margin="50,192,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="50,260,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Foreground="White"/>
+        <hc:TextBox hc:InfoElement.Placeholder="Введите свой логин" HorizontalAlignment="Left" Height="33" Margin="115,187,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="205"/>
+        <hc:PasswordBox hc:InfoElement.Placeholder="Введите пароль"  HorizontalAlignment="Left" Height="34" Margin="115,251,0,0"   VerticalAlignment="Top" Width="205"/>
+        <Button Content="Авторизоваться" HorizontalAlignment="Left" Margin="140,345,0,0" VerticalAlignment="Top" Width="140"/>
+        <Rectangle Fill="#FFF92626" HorizontalAlignment="Left" Height="500" Stroke="Black" VerticalAlignment="Top" Width="400" Margin="400,0,0,0"/>
+        <TextBlock HorizontalAlignment="Left" Margin="450,168,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="405,275,0,0" TextWrapping="Wrap" Text="Повторите пароль" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Foreground="White" Width="149"/>
+        <hc:TextBox hc:InfoElement.Placeholder="Введите свой логин" HorizontalAlignment="Left" Height="33" Margin="559,164,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="205"/>
+        <hc:PasswordBox hc:InfoElement.Placeholder="Повтороно введите пароль"  HorizontalAlignment="Left" Height="34" Margin="559,266,0,0"   VerticalAlignment="Top" Width="205"/>
+        <TextBlock HorizontalAlignment="Left" Margin="450,221,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Foreground="White"/>
+        <hc:TextBox hc:InfoElement.Placeholder="Введите свой логин" HorizontalAlignment="Left" Height="33" Margin="559,217,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="205"/>
+        <TextBlock HorizontalAlignment="Left" Margin="0,48,0,0" TextWrapping="Wrap" Text="Авторизация" VerticalAlignment="Top" FontWeight="Bold" FontSize="35" Foreground="White" Width="400" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="400,48,0,0" TextWrapping="Wrap" Text="Регистрация" VerticalAlignment="Top" FontWeight="Bold" FontSize="35" Foreground="White" Width="400" TextAlignment="Center"/>
+        <Button Content="Зарегистрироваться" HorizontalAlignment="Left" Margin="565,345,0,0" VerticalAlignment="Top" Width="150" Click="Button_Click"/>
+
+
+
+    </Grid>
+</Window>
